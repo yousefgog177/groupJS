@@ -1,0 +1,55 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "random-id-generator": "*",
+    "node-fetch": "^2.6.1",
+    "body-parser": "^1.19.0",
+    "fs": "^0.0.2",
+    "node-cmd": "*",
+    "websocket": "^1.0.33",
+    "ws": "^7.4.4",
+    "image-to-base64": "^2.2.0",
+    "random-id": "^1.0.4",
+    "eris": "^0.15.1",
+    "form-data": "^4.0.0",
+    "chalk": "^4.1.1",
+    "ocr-space-api-wrapper": "^1.0.4",
+    "axios-retry": "^3.1.9",
+    "file-type": "^16.5.0",
+    "axios": "*",
+    "axios-cookiejar-support": "*",
+    "tough-cookie": "*",
+    "cloudscraper": "^4.6.0",
+    "request": "^2.88.2",
+    "node-2fa": "^2.0.2",
+    "puppeteer": "^10.1.0",
+    "sms-activate": "^1.0.0",
+    "hcaptcha-solver": "*",
+    "request-promise-native": "^1.0.9",
+    "url": "^0.11.0",
+    "vm": "^0.1.0",
+    "http": "^0.0.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
